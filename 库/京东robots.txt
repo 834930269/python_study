@@ -1,0 +1,11 @@
+#--允许的--
+User-agent: *
+
+#--不允许访问的地址--
+Disallow: /?*
+Disallow: /pop/*.html
+Disallow: /pinpai/*.html?*
+
+#--这些爬虫是恶意爬虫,不允许--
+User-agent: EtaoSpider
+Disallow:/
